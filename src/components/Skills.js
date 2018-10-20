@@ -20,36 +20,27 @@ export default class Skills extends Component {
 
 
 
-
-  <div className="container">
-    <ul className="nav nav-pills" role="tablist">
-      <li className="nav-item">
-        <a className="nav-link active" data-toggle="pill" href="#home">Home</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" data-toggle="pill" href="#menu1">Menu 1</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" data-toggle="pill" href="#menu2">Menu 2</a>
-      </li>
-    </ul>
-
-    <div className="tab-content">
-      <div id="home" className="container tab-pane active"><br/>
-        <h3>HOME</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div id="menu1" className="container tab-pane fade"><br/>
-        <h3>Menu 1</h3>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div id="menu2" className="container tab-pane fade"><br/>
-        <h3>Menu 2</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-      </div>
+  <nav>
+    <div className="nav nav-tabs" id="nav-tab" role="tablist">
+      <a className="nav-item nav-link active" id="nav-languages-tab" data-toggle="tab" href="#nav-languages" role="tab" aria-controls="nav-languages" aria-selected="true">
+        Programming Languages</a>
+      <a className="nav-item nav-link" id="nav-frameworks-tab" data-toggle="tab" href="#nav-frameworks" role="tab" aria-controls="nav-frameworks" aria-selected="false">
+        Frameworks & Libraries</a>
+      <a className="nav-item nav-link" id="nav-tools-tab" data-toggle="tab" href="#nav-tools" role="tab" aria-controls="nav-tools" aria-selected="false">
+        Tools</a>
+    </div>
+  </nav>
+  <div className="tab-content" id="nav-tabContent">
+    <div className="tab-pane fade show active" id="nav-languages" role="tabpanel" aria-labelledby="nav-languages-tab">
+languages
+    </div>
+    <div className="tab-pane fade" id="nav-frameworks" role="tabpanel" aria-labelledby="nav-frameworks-tab">
+frameworks
+    </div>
+    <div className="tab-pane fade" id="nav-tools" role="tabpanel" aria-labelledby="nav-tools-tab">
+      tools
     </div>
   </div>
-
 
 
 

@@ -18,7 +18,9 @@
    font-weight: 400;
  }
 
-
+a, a:hover {
+  color:  #e84a5f;
+}
 
 .presentation .jumbotron {
   background-color: black;
