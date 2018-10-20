@@ -1,15 +1,12 @@
 * {
-     font-family: sans-serif;
-   }
-   body {
-     background-color: black;
+     font-family: Helvetica;
    }
 
    .glitch {
      color: white;
      font-size: 100px;
      margin: 0 auto;
-     width: 400px;
+     width: 500px;
    }
 
    /* Real glitch effect */

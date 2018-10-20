@@ -1,2 +1,15 @@
 .App {
 }
+
+
+.presentation .jumbotron {
+  background-color: black;
+  height: 800px;
+}
+.vertical-center {
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
