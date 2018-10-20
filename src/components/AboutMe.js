@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-
-
-
 export default class AboutMe extends Component {
 
 
@@ -16,7 +13,6 @@ export default class AboutMe extends Component {
       <div>
       <h5 >ABOUT ME</h5>
       </div>
-
       </div>
     </div>
 <div className="row">

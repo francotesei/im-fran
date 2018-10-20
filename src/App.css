@@ -8,6 +8,9 @@
   height: 800px;
 }
 
+.aboutme, .experience {
+  margin-top: 100px;
+}
 .aboutme h5 {
   text-decoration: underline;
 }
@@ -17,6 +20,14 @@
   font-weight: 400;
 }
 
+.experience h5 {
+  text-decoration: underline;
+}
+
+.experience strong {
+  color: #e84a5f;
+  font-weight: 400;
+}
 
 .vertical-center {
   display: block;
