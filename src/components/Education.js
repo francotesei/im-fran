@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-export default class Experience extends Component {
+export default class Education extends Component {
 
   render(){
     return(
-    <div className="experience">
+    <div className="education">
     <div className="container">
     <div className="row">
     <div className="col-md-12  text-left">
     <div>
-    <h5 >EXPERIENCE</h5>
+    <h5 >EDUCATION</h5>
     </div>
     </div>
   </div>
