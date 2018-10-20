@@ -9,7 +9,7 @@ export default class AboutMe extends Component {
       <div className="aboutme ">
       <div className="container">
       <div className="row">
-      <div className="col-md-12">
+      <div className="col-md-12 text-left">
       <div>
       <h5 >ABOUT ME</h5>
       </div>
