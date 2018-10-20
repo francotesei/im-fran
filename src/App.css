@@ -27,6 +27,12 @@ a, a:hover {
   height: 800px;
 }
 
+.skills img {
+
+width: 20%;
+margin: 10px;
+}
+
 .aboutme, .experience, .education {
   margin-top: 100px;
 }

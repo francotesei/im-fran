@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import angular2 from '../resources/images/icons/angular2.png'
+import elm from '../resources/images/icons/elm.png'
 export default class Skills extends Component {
 
   render(){
@@ -17,9 +18,6 @@ export default class Skills extends Component {
 <div className="row">
 <div className="col-md-2"></div>
 <div className="col-md-10">
-
-
-
   <nav>
     <div className="nav nav-tabs" id="nav-tab" role="tablist">
       <a className="nav-item nav-link active" id="nav-languages-tab" data-toggle="tab" href="#nav-languages" role="tab" aria-controls="nav-languages" aria-selected="true">
@@ -35,7 +33,24 @@ export default class Skills extends Component {
 languages
     </div>
     <div className="tab-pane fade" id="nav-frameworks" role="tabpanel" aria-labelledby="nav-frameworks-tab">
-frameworks
+
+<div className="row">
+
+<div className="col-xs-3 text-center">
+  <img src={angular2} className="rounded"></img>
+  <p>Angular 2</p>
+  </div>
+
+  <div className="col-xs-3  text-center">
+    <img src={elm} className="rounded"></img>
+    <p>Elm</p>
+    </div>
+
+
+<div className="col-xs-3"></div>
+<div className="col-xs-3"></div>
+      </div>
+
     </div>
     <div className="tab-pane fade" id="nav-tools" role="tabpanel" aria-labelledby="nav-tools-tab">
       tools
