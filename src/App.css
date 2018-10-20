@@ -12,7 +12,10 @@
   text-decoration: underline;
 }
 
-
+.aboutme strong {
+  color: #e84a5f;
+  font-weight: 400;
+}
 
 
 .vertical-center {
