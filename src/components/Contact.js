@@ -57,6 +57,13 @@ export default class Contact extends Component {
 
 </div>
 
+<br/>
+<div className="row">
+<div className="col-md-12 text-center">
+  <button className="btn btn-danger btn-outline-danger">Descargar CV</button>
+</div>
+</div>
+
     </div>
     </div>
     )
