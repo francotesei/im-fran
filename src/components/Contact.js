@@ -72,7 +72,7 @@ export default class Contact extends Component {
 <br/>
 <div className="row">
 <div className="col-md-12 text-center">
-  <button className="btn btn-danger btn-outline-danger" onClick={()=>this.downloadCV()}>Descargar CV</button>
+  <button className="btn btn-danger btn-outline-danger" hidden="true" onClick={()=>this.downloadCV()}>Descargar CV</button>
 </div>
 </div>
 
