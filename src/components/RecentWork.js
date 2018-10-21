@@ -24,6 +24,12 @@ ComponentWillMount(){
 </div>
 </div>
     </div>
+
+
+
+
+
+
 <ScriptTag isHydrating={false} type="text/javascript">
   GitHubCalendar(".calendar", "francotesei");
 </ScriptTag>

@@ -39,7 +39,7 @@ margin: 10px;
   }
 
 
-.aboutme, .experience, .education, .skills, .recentWork {
+.aboutme, .experience, .education, .skills, .recentWork, .contact {
   margin-top: 100px;
 }
 .aboutme {}
@@ -47,3 +47,4 @@ margin: 10px;
 .education{}
 .skills{}
 .recentWork{}
+.contact{}
