@@ -23,6 +23,7 @@ import npm from '../resources/images/icons/npm.png';
 import bootstrap from '../resources/images/icons/bootstrap.png';
 import reactnative from '../resources/images/icons/reactnative.jpg';
 import ionic2 from '../resources/images/icons/ionic2.png';
+import jenkins from '../resources/images/icons/jenkins.png';
 
 
 
@@ -234,7 +235,8 @@ export default class Skills extends Component {
   </div>
 
   <div className="col-xs-3  text-center">
-
+    <img src={jenkins} className="rounded"></img>
+    <p>Jenkins</p>
     </div>
 
 <div className="col-xs-3 text-center">

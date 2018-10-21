@@ -92,7 +92,13 @@ export default class Education extends Component {
     </div>
 
     <div className="col-md-3">
-
+      <div className="card">
+      <div className="card-body text-center">
+        <p><strong>CURRENTLY</strong></p>
+        <p><b>Machine Learning A-Z</b></p>
+        <p className="text-center">Udemy - SuperDataScience</p>
+      </div>
+      </div>
     </div>
 
     </div>
