@@ -2,7 +2,19 @@ import React, { Component } from 'react';
 import linkedin from "../resources/images/icons/linkedin.png";
 import github from "../resources/images/icons/github.png";
 import gmail from "../resources/images/icons/gmail.svg";
+import html2canvas from 'html2canvas'
 export default class Contact extends Component {
+
+  constructor(props){
+    super(props);
+    this.downloadCV = this.downloadCV.bind(this)
+  }
+
+  downloadCV(){
+    html2canvas(document.body).then(function(canvas) {
+    document.body.appendChild(canvas);
+});
+  }
 
   render(){
     return(
@@ -60,7 +72,7 @@ export default class Contact extends Component {
 <br/>
 <div className="row">
 <div className="col-md-12 text-center">
-  <button className="btn btn-danger btn-outline-danger">Descargar CV</button>
+  <button className="btn btn-danger btn-outline-danger" onClick={()=>this.downloadCV()}>Descargar CV</button>
 </div>
 </div>
 
