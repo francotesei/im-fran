@@ -39,7 +39,7 @@ margin: 10px;
   }
 
 
-.aboutme, .experience, .education, .skills, .recentWork, .contact {
+.aboutme, .experience, .education, .skills, .recentWork, .contact, .footer {
   margin-top: 100px;
 }
 .aboutme {}
@@ -48,3 +48,8 @@ margin: 10px;
 .skills{}
 .recentWork{}
 .contact{}
+
+.footer {
+  background-color: black;
+  height: 70px;
+}
