@@ -34,7 +34,7 @@ export default class AboutMe extends Component {
 </div>
 <br/>
 <div className="row">
-  <div className="col-md-4"><strong>Citizenship:</strong> Argentino</div>
+  <div className="col-md-4"><strong>Citizenship:</strong> Argentine</div>
   <div className="col-md-4"><strong>Residence:</strong> Buenos Aires</div>
   <div className="col-md-4"><strong>E-mail:</strong> ftesei96@gmail.com</div>
 </div>

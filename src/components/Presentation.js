@@ -1,23 +1,31 @@
 import React, { Component } from 'react';
 import '../glitch.css';
 
-
-
 export default class Presentation extends Component {
 
 
 
   render() {
     return(
+      <div>
       <div className="presentation">
         <div className="jumbotron  ">
           <div className="container vertical-center ">
             <h3 className="display-4">
               <div className="glitch" data-text="I'M FRAN">I'M FRAN</div>
               </h3>
-            <p className="lead text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <p className="lead text-center">
+
+              <a href="" className="typewrite" data-period="2000"
+                 data-type='[ "Hi, Im Franco.", "Im Senior Developer.", "I Love Coffee.", "I Love to Develop." ]'>
+                <span className="wrap"></span>
+              </a>
+            </p>
+
+          </div>
             </div>
-            </div>
+
+</div>
 </div>
     )
   }
