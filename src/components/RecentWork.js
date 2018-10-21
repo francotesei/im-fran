@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import Iframe from 'react-iframe'
+import ScriptTag from 'react-script-tag';
 export default class RecentWork extends Component {
+ComponentWillMount(){
 
+}
   render(){
     return(
     <div className="recentWork">
@@ -18,20 +20,13 @@ export default class RecentWork extends Component {
     <div className="col-md-2"></div>
     <div className="col-md-10">
 
-      <Iframe url="http://localhost:8080/github-calendar.html"
-          width="100%"
-          height="350px"
-          id="myId"
-          className="iframe"
-          display="initial"
-          position="relative"
-          allowFullScreen/>
+    <div className="calendar"></div>
 </div>
 </div>
-
-
-
     </div>
+<ScriptTag isHydrating={false} type="text/javascript">
+  GitHubCalendar(".calendar", "francotesei");
+</ScriptTag>
     </div>
     )
   }
