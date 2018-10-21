@@ -22,7 +22,7 @@ export default class Contact extends Component {
   <div className="col-md-3">
       <div className="card">
         <div className="card-body text-center">
-          <a href="www.linkedin.com/in/franco-tesei-4b7580109" target="blank">
+          <a href="www.linkedin.com/in/franco-tesei-4b7580109" target="_blank">
           <img src={linkedin} className="rounded"></img>
       <span><strong>Linkedin</strong></span>
       </a>
@@ -33,7 +33,7 @@ export default class Contact extends Component {
 <div className="col-md-3">
     <div className="card">
       <div className="card-body text-center">
-        <a href="https://github.com/francotesei" target="blank">
+        <a href="https://github.com/francotesei" target="_blank">
         <img src={github} className="rounded"></img>
     <span><strong>Github</strong></span>
 </a></div>

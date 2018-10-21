@@ -15,12 +15,12 @@ export default class Experience extends Component {
   </div>
 
   <div className="row">
-    <div className="col-md-2"></div>
+    <div className="col-md-3"></div>
 
 
     <div className="col-md-3">
       <div className="card">
-        <div className="card-body">
+        <div className="card-body text-center">
       <p><strong>2015 - 2016</strong></p>
       <p><b>Javascript Developer - Calipso ERP</b></p>
     </div>
@@ -29,7 +29,7 @@ export default class Experience extends Component {
 
     <div className="col-md-3">
       <div className="card">
-        <div className="card-body">
+        <div className="card-body text-center">
       <p><strong>2016 - 2017</strong></p>
       <p><b>Java Developer - Billing</b></p>
     </div>
@@ -39,7 +39,7 @@ export default class Experience extends Component {
 
     <div className="col-md-3">
       <div className="card">
-        <div className="card-body">
+        <div className="card-body text-center">
       <p><strong>2017 - 2018</strong></p>
       <p><b>Senior Developer - Redbee Studios</b></p>
     </div>
