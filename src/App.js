@@ -4,7 +4,8 @@ import Presentation from './components/Presentation';
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
-import Skills from "./components/Skills"
+import Skills from "./components/Skills";
+import RecentWork from "./components/RecentWork";
 class App extends Component {
   render() {
     return (
@@ -14,6 +15,7 @@ class App extends Component {
         <Education/>
         <Experience/>
         <Skills/>
+        <RecentWork/>
       </div>
     );
   }
