@@ -15,7 +15,7 @@ export default class Skills extends Component {
     <div className="row">
     <div className="col-md-12  text-left">
     <div>
-    <h5 >Skills</h5>
+    <h5 >SKILLS</h5>
     </div>
     </div>
   </div>

@@ -19,9 +19,9 @@ export default class Education extends Component {
     <div className="col-md-10">
       <div className="card">
         <div className="card-body">
-      <p><strong>2017 - Present</strong></p>
-      <p><b>Senior Developer - Redbee Studios</b></p>
-      <p>Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu, ullamcorper eget nibh.</p>
+      <p><strong>2007 - 2014</strong></p>
+      <p><b>Technical Computer Programmer</b></p>
+      <p>Secondary School.</p>
     </div>
   </div>
 </div>
@@ -35,13 +35,27 @@ export default class Education extends Component {
     <div className="col-md-10">
       <div className="card">
         <div className="card-body">
-      <p><strong>2017 - Present</strong></p>
-      <p><b>Senior Developer - Redbee Studios</b></p>
-      <p>Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu, ullamcorper eget nibh.</p>
+      <p><strong>2014 - 2018</strong></p>
+      <p><b>IT Engineer / Electronic Engineer </b></p>
+      <p>Matanza University. Discontinued.</p>
     </div>
   </div>
 </div>
 </div>
+<br/> <br/>
+<div className="row">
+  <div className="col-md-2"></div>
+  <div className="col-md-10">
+    <div className="card">
+      <div className="card-body">
+    <p><strong>2018 - Present</strong></p>
+    <p><b>Computer Science</b></p>
+    <p>UBA</p>
+  </div>
+</div>
+</div>
+</div>
+
 
 
     </div>

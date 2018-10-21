@@ -11,7 +11,7 @@ export default class Contact extends Component {
     <div className="row">
     <div className="col-md-12  text-left">
     <div>
-    <h5 >Contact</h5>
+    <h5 >CONTACT</h5>
     </div>
     </div>
   </div>
