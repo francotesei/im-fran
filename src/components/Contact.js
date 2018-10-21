@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-
+import linkedin from "../resources/images/icons/linkedin.png";
+import github from "../resources/images/icons/github.png";
+import gmail from "../resources/images/icons/gmail.svg";
 export default class Contact extends Component {
 
   render(){
@@ -16,33 +18,38 @@ export default class Contact extends Component {
 
   <div className="row">
     <div className="col-md-2"></div>
-    <div className="col-md-10">
+
+  <div className="col-md-3">
       <div className="card">
-        <div className="card-body">
-      <p><strong>2017 - Present</strong></p>
-      <p><b>Senior Developer - Redbee Studios</b></p>
-      <p>Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu, ullamcorper eget nibh.</p>
+        <div className="card-body text-center">
+          <img src={linkedin} className="rounded"></img>
+      <span><strong>Linkedin</strong></span>
     </div>
+  </div>
+</div>
+
+<div className="col-md-3">
+    <div className="card">
+      <div className="card-body text-center">
+        <img src={github} className="rounded"></img>
+    <span><strong>Github</strong></span>
   </div>
 </div>
 </div>
 
-<br/> <br/>
 
-
-  <div className="row">
-    <div className="col-md-2"></div>
-    <div className="col-md-10">
-      <div className="card">
-        <div className="card-body">
-      <p><strong>2017 - Present</strong></p>
-      <p><b>Senior Developer - Redbee Studios</b></p>
-      <p>Duis ipsum ligula, feugiat nec auctor vitae, porta sit amet urna. Praesent ex lorem, porta nec aliquet eu, ullamcorper eget nibh.</p>
-    </div>
+<div className="col-md-3">
+    <div className="card">
+      <div className="card-body text-center">
+        <img src={gmail} className="rounded"></img>
+    <span><strong>Gmail</strong></span>
   </div>
 </div>
 </div>
 
+
+
+</div>
 
     </div>
     </div>
