@@ -16,46 +16,42 @@ export default class Education extends Component {
 
   <div className="row">
     <div className="col-md-2"></div>
-    <div className="col-md-10">
+
+    <div className="col-md-3">
       <div className="card">
         <div className="card-body">
       <p><strong>2007 - 2014</strong></p>
       <p><b>Technical Computer Programmer</b></p>
-      <p>Secondary School.</p>
+      <p className="text-center">Secondary School.</p>
     </div>
   </div>
 </div>
-</div>
 
-<br/> <br/>
-
-
-  <div className="row">
-    <div className="col-md-2"></div>
-    <div className="col-md-10">
-      <div className="card">
-        <div className="card-body">
+<div className="col-md-3">
+  <div className="card">
+    <div className="card-body">
       <p><strong>2014 - 2018</strong></p>
       <p><b>IT Engineer / Electronic Engineer </b></p>
-      <p>Matanza University. Discontinued.</p>
-    </div>
-  </div>
-</div>
-</div>
-<br/> <br/>
-<div className="row">
-  <div className="col-md-2"></div>
-  <div className="col-md-10">
-    <div className="card">
-      <div className="card-body">
-    <p><strong>2018 - Present</strong></p>
-    <p><b>Computer Science</b></p>
-    <p>UBA</p>
-  </div>
+      <p className="text-center">Discontinued.</p>
 </div>
 </div>
 </div>
 
+<div className="col-md-3">
+  <div className="card">
+    <div className="card-body">
+      <p><strong>2018 - Present</strong></p>
+      <br/>
+      <p><b>Computer Science</b></p>
+      <p className="text-center">UBA</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
 
 
     </div>
