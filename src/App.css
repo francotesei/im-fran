@@ -18,13 +18,18 @@
    font-weight: 400;
  }
 
-a, a:hover {
+.skills a,.skills a:hover {
   color:  #e84a5f;
 }
 
 .presentation .jumbotron {
   background-color: black;
   height: 800px;
+}
+.presentation a,.presentation a:hover {
+  color: grey !important;
+  text-decoration: none;
+  cursor: default;
 }
 
 .skills img {
@@ -72,6 +77,10 @@ margin: 10px;
 .contact .card:hover .middle {
   opacity: 1;
 }
+.contact a,.contact a:hover {
+  text-decoration: none;
+}
+
 
 .contact .middle {
   transition: .5s ease;
