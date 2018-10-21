@@ -32,6 +32,12 @@
   cursor: default;
 }
 
+.education a,.education a:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .skills img {
 
 width: 20%;
