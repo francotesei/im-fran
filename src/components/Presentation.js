@@ -17,7 +17,7 @@ export default class Presentation extends Component {
             <p className="lead text-center">
 
               <a href="" className="typewrite" data-period="2000"
-                 data-type='[ "Hi, Im Franco.", "Im Senior Developer.", "I Love Coffee.", "I Love to Develop." ]'>
+                 data-type='[ "Hi, Im Franco.", "Im Sr. Data Engineer.","& Sr. Software Developer", "I Love Coffee."]'>
                 <span className="wrap"></span>
               </a>
             </p>

@@ -21,16 +21,16 @@ export default class AboutMe extends Component {
 </div>
 <div className="col-md-10">
 <p>
-  I’m a Full Stack developer living in Buenos Aires, Argentina. I am spending my days with my hands on many different areas of web development from back end programming to front end engineering.
-</p>
+I’m extremely passionate about maths, physics and computer science. I enjoy spending my time researching new technologies and expanding my knowledge,
+ reading books, watching MOOCs and going to technologic meetups.</p>
+<p>I love big data architectures and reactive systems. I like developing apps, explorer Machine Learning and Blockchain technologies.</p>
 <p>
-  I’m extremely passionate about maths, physics and computer science. Aside from web development, I enjoy spending my time researching new technologies and expanding my knowledge, reading books, watching documentaries and going to technologic meetups.
-</p>
+Also I'm interested in genetics and neuroscience, and how Deep Learning technologies and distributed systems can have an impact on them.</p>
 
 <div className="row">
   <div className="col-md-4"><strong>Name:</strong> Franco Tesei</div>
-  <div className="col-md-4"><strong>Age:</strong> 22 Years</div>
-  <div className="col-md-4"><strong>Job:</strong> Senior Developer</div>
+  <div className="col-md-4"><strong>Age:</strong> 23 Years</div>
+  <div className="col-md-4"><strong>Job:</strong> Sr. Data Engineer</div>
 </div>
 <br/>
 <div className="row">

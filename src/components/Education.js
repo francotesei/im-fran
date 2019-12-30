@@ -18,9 +18,9 @@ export default class Education extends Component {
   </div>
 
   <div className="row">
-    <div className="col-md-3"></div>
+    <div className="col-md-4"></div>
 
-    <div className="col-md-3">
+    <div className="col-md-4">
       <div className="card">
         <div className="card-body text-center">
       <p><strong>2007 - 2014</strong></p>
@@ -30,21 +30,12 @@ export default class Education extends Component {
   </div>
 </div>
 
-<div className="col-md-3">
-  <div className="card">
-    <div className="card-body text-center">
-      <p><strong>2014 - 2018</strong></p>
-      <p><b>IT Engineer / Electronic Engineer </b></p>
-      <p className="text-center">Discontinued.</p>
-</div>
-</div>
-</div>
 
-<div className="col-md-3">
+
+<div className="col-md-4">
   <div className="card">
     <div className="card-body  text-center">
-      <p><strong>2018 - Present</strong></p>
-      <br/>
+      <p><strong>Present</strong></p>
       <p><b>Computer Science</b></p>
       <p className="text-center">UBA</p>
 </div>
@@ -75,6 +66,7 @@ export default class Education extends Component {
           <a href="https://www.coursera.org/account/accomplishments/certificate/GRM7XHLP2E9E" target="_blank">
       <p><strong>COMPLETED</strong></p>
       <p><b>Machine Learning</b></p>
+      <br/>
       <p className="text-center">Coursera - Stanford University</p>
 </a>
   </div>
@@ -82,23 +74,29 @@ export default class Education extends Component {
     </div>
 
     <div className="col-md-3">
-    <div className="card">
-    <div className="card-body text-center">
-      <p><strong>CURRENTLY</strong></p>
-      <p><b>Functional Programming in Scala</b></p>
-      <p className="text-center">Coursera - EPFL</p>
-    </div>
+      <div className="card">
+        <div className="card-body text-center">
+          <a href="https://www.coursera.org/account/accomplishments/verify/PQ3JTSK79EEK" target="_blank">
+      <p><strong>COMPLETED</strong></p>
+      <p><b>Intro. Deep Learning with Tensorflow</b></p>
+      <p className="text-center">Coursera -  Deeplearning.ai</p>
+</a>
+  </div>
     </div>
     </div>
 
-    <div className="col-md-3">
+
+      <div className="col-md-3">
       <div className="card">
-      <div className="card-body text-center">
-        <p><strong>CURRENTLY</strong></p>
-        <p><b>Machine Learning A-Z</b></p>
-        <p className="text-center">Udemy - SuperDataScience</p>
-      </div>
-      </div>
+        <div className="card-body text-center">
+          <a href="https://www.coursera.org/account/accomplishments/verify/Z2YPTND9RR99" target="_blank">
+      <p><strong>COMPLETED</strong></p>
+      <p><b>NLP with Tensorflow</b></p>
+      <br/>
+      <p className="text-center">Coursera - Deeplearning.ai</p>
+</a>
+  </div>
+    </div>
     </div>
 
     </div>
